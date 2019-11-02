@@ -5,6 +5,8 @@
         }
     },
     "require": {
-        "easyswoole/easyswoole": "3.x"
+        "easyswoole/easyswoole": "3.x",
+        "easyswoole/pool": "^1.0",
+        "easyswoole/redis": "^1.0"
     }
 }
