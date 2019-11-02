@@ -26,5 +26,15 @@ return [
         ]
     ],
     'TEMP_DIR' => null,
-    'LOG_DIR' => null
+    'LOG_DIR' => null,
+
+    /*################ REDIS CONFIG ##################*/
+    'REDIS1' => [
+        'host'          => '127.0.0.1',
+        'port'          => '6379',
+        'auth'          => '',
+        'POOL_MAX_NUM'  => '20',
+        'POOL_MIN_NUM'  => '5',
+        'POOL_TIME_OUT' => '0.1',
+    ],
 ];

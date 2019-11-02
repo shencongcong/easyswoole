@@ -21,6 +21,11 @@ class EasySwooleEvent implements Event
     {
         // TODO: Implement initialize() method.
         date_default_timezone_set('Asia/Shanghai');
+        $config = new \EasySwoole\Pool\Config();
+        $redisConfig1 = new \EasySwoole\Redis\Config\RedisConfig(\EasySwoole\EasySwoole\Config::getInstance()->getConf('REDIS1'));
+
+        \EasySwoole\Pool\Manager::getInstance()->register(new \App\Pool\RedisPool($config,$redisConfig1),'redis1');
+
     }
 
     public static function mainServerCreate(EventRegister $register)
