@@ -1,0 +1,4 @@
+[2019-11-02 13:32:12 $13482.0]	WARNING	swManager_loop: cannot reload task workers, task workers is not started
+[2019-11-02 13:32:29 $13482.0]	WARNING	swManager_loop: cannot reload task workers, task workers is not started
+[2019-11-02 13:32:52 #13481.4]	INFO	Server is shutdown now
+[2019-11-02 13:32:52 $13482.0]	WARNING	swManager_loop: cannot reload task workers, task workers is not started
